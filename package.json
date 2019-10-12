@@ -1,0 +1,25 @@
+{
+  "name": "ghnaapp",
+  "version": "0.0.1",
+  "description": "Google Home App for news using newsapi",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhiram308/ghnaapp.git"
+  },
+  "author": "Abhiram Hatolkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhiram308/ghnaapp/issues"
+  },
+  "homepage": "https://github.com/abhiram308/ghnaapp#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "newsapi": "^2.4.0",
+    "request": "^2.88.0"
+  }
+}
